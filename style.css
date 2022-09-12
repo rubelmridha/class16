@@ -1,0 +1,124 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: #101446;
+}
+.header-logo{}
+.header-logo img{
+    width: 95px;
+    padding: 5px;
+}
+.primary-menu{}
+.primary-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 50px;
+    margin-left: -5px;
+}
+.primary-menu ul li a:hover{
+    background-color: rgba(11, 158, 184, 0.212) ;
+}
+
+
+.banner{
+    background-image: url(./images/intro-bg.jpg);
+    background-size: cover;
+    padding: 350px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+img{
+    max-width: 100%;
+}
+
+.banner h3{
+    color: white;
+    padding: 10px;
+}
+
+.banner p{
+    color: white;
+    padding: 10px;
+}
+
+.team_area{
+    background-color: #BAC1F3;
+}
+
+.team_area p{
+    padding: 0 120px;
+}
+
+.team_area h5{
+    padding-top: 5px;
+}
+
+.about_area{
+    background-color: #C2D4EA;
+}
+
+.address{
+    display: inline-block;
+    line-height: 31px;
+    margin-left: 80px;
+    margin-bottom: -43px;
+}
+
+.photo_bg{
+    height: 150px;
+}
+
+.photo{
+    float: left;
+}
+
+.address{
+   
+}
+
+.paragraph{
+    margin: 20px 0;
+}
+
+.about_area span{
+    font-size: 20px;
+    font-family: revert;
+}
+
+.contact{
+
+}
+.contact h2{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #0062D3;
+}
+footer p{
+    color: whitesmoke;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+
+
+.vedio{
+    color: red;
+    font-size: 30px;
+    float: left;
+}

@@ -1,0 +1,145 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    background-color: aqua;
+}
+.header-logo{}
+.header-logo img {
+    width: 95px;
+}
+.primary-menu{}
+.primary-menu ul {
+    text-align: right;
+    margin-bottom: 0;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    color: white;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    text-decoration: none;
+    line-height: 50px;
+    border-right: 1px solid white;
+    margin-left: -5px;
+}
+.primary-menu ul li a:hover{
+    background-color: rgba(11, 158, 184, 0.212) ;
+}
+
+.primary-menu ul li:first-child a{
+    border-left: 1px solid white;
+}
+
+
+.banner{
+    background-image: url(./images/day\ 24\ part2\ image_banner.jpg);
+    background-size: cover;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-text h1{
+    background-color: rgba(137, 233, 250, 0.68);
+    max-width: 529px;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+    font-family: serif;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.banner-text h2{
+    background-color: rgb(77 73 73 / 68%);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    color: white;
+    font-family: serif;
+}
+
+
+.about{
+    background-color: #EBF0F1;
+}
+
+.about h2{
+    font-family: serif;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.sercice span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #227ab9;
+    line-height: 50px;
+    border-radius: 20px 0px 20px 0;
+    color: white;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.sercice h2{
+    font-family: serif;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+
+.product_right{}
+.product_right h2{
+    font-size: 32px;
+    border-bottom: 1px solid #ddd;
+    font-family: serif;
+}
+.product_right ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.product_right ul li{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-family: serif;
+    background: whitesmoke;
+}
+
+
+.footer{
+    background-color: #202C3C;
+}
+.footer p{
+    margin-bottom: 0;
+}
+.footer_menu{
+    text-align: right;
+}
+.footer_menu a{
+    color: white;
+    margin-left: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.footer_menu a:hover{
+    color: cyan;
+}
